@@ -2,9 +2,7 @@
   <nav class="navbar">
     <a href="#" class="brand-logo">Logo</a>
     <div class="navbar-menu">
-      <a href="sass.html">Sass</a>
-      <a href="badges.html">Components</a>
-      <a href="collapsible.html">JavaScript</a>
+      <a href="/windowCalc">Window</a>
     </div>
   </nav>
 </template>

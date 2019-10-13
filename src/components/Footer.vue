@@ -1,13 +1,19 @@
 <template>
   <footer class="footer">
     <div class="footer-links"></div>
-    <div class="footer-copyright">Copyright Su Ema &copy; 2019</div>
+    <div class="footer-copyright">Copyright {{author}} &copy; {{date}}</div>
   </footer>
 </template>
 
 <script>
 export default {
-  name: "Footer"
+  name: "Footer",
+  data() {
+    return {
+      author: "Tanel Tekko",
+      date: Date().slice(10, 15)
+    };
+  }
 };
 </script>
 
